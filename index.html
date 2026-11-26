@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>이몽룡 ♥ 성춘향 결혼합니다</title>
+<meta name="description" content="2026년 12월 25일 금요일 오후 3시, 호텔수성 행복홀 2층에서 저희 두 사람이 사랑의 첫걸음을 내딛습니다.">
+<meta name="theme-color" content="#396000">
+
+<!-- 링크 미리보기(카카오톡 등). 배포 후 og:url, og:image를 실제 배포 주소로 교체하세요. [  ] -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="이몽룡 ♥ 성춘향 결혼합니다">
+<meta property="og:description" content="2026.12.25 (금) 오후 3시 · 호텔수성 행복홀 2층">
+<meta property="og:image" content="image/01.png">
+<meta property="og:url" content="">
+
+<!-- 폰트: Pretendard (불러오지 못하면 아래 font-family의 대체 폰트가 적용됩니다) -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+
+<style>
+:root{
+  --green:#396000;      /* 주조색 */
+  --gold:#F4BE38;       /* 보조색 1 */
+  --yellow:#EDDA5E;     /* 보조색 2 */
+  --white:#FFFFFF;
+  --snow:#F6F9F1;       /* 눈빛 바탕 */
+  --ink:#26301B;        /* 본문 글자 */
+  --muted:#6B7560;      /* 보조 글자 */
+  --line:#DCE5CF;
+  --radius-card:29px;   /* 카드 모서리 (DESIGN.md 4번) */
+  --font:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic","맑은 고딕",sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--font);font-size:15px;line-height:1.7;color:var(--ink);
+  background:#E9EFE0;word-break:keep-all;overflow-wrap:break-word;
+  -webkit-text-size-adjust:100%;
+}
+img{display:block;max-width:100%;height:auto}
+button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
+a{color:inherit}
+
+.page{max-width:480px;margin:0 auto;background:var(--white);box-shadow:0 0 40px rgba(57,96,0,.12);overflow:hidden}
+section{padding:64px 24px;text-align:center}
+section.alt{background:var(--snow)}
+
+.eyebrow{font-size:12px;letter-spacing:.28em;color:var(--green);font-weight:600;text-transform:uppercase}
+h2{font-size:22px;font-weight:700;color:var(--green);letter-spacing:.06em;margin-top:6px}
+h2::after{content:"";display:block;width:32px;height:3px;border-radius:3px;background:var(--gold);margin:14px auto 28px}
+.caption{font-size:13px;color:var(--muted)}
+
+/* ---------- 표지 ---------- */
+.hero{position:relative;background:var(--green)}
+.hero img{width:100%;aspect-ratio:2/3;object-fit:cover}
+.hero-text{
+  position:absolute;left:0;right:0;bottom:0;padding:120px 24px 36px;color:#fff;text-align:center;
+  background:linear-gradient(to top,rgba(35,60,0,.92) 0%,rgba(35,60,0,.6) 55%,rgba(35,60,0,0) 100%);
+}
+.hero .eyebrow{color:var(--yellow)}
+.hero h1{font-size:28px;font-weight:700;letter-spacing:.08em;margin:10px 0 14px}
+.hero h1 .heart{color:var(--gold);margin:0 .25em}
+.hero p{font-size:14px;line-height:1.8;opacity:.95}
+
+/* ---------- 인사말 ---------- */
+.greeting-photo{width:72%;margin:0 auto 32px;border-radius:var(--radius-card);overflow:hidden;box-shadow:0 10px 30px rgba(57,96,0,.18)}
+.greeting-photo img{width:100%;aspect-ratio:2/3;object-fit:cover}
+.greeting p{white-space:pre-line;font-size:15px;line-height:2}
+.names{margin-top:28px;font-weight:600;color:var(--green);letter-spacing:.06em}
+
+/* ---------- 예식 안내 / D-day ---------- */
+.info-card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius-card);padding:28px 20px;box-shadow:0 6px 20px rgba(57,96,0,.06)}
+.info-date{font-size:19px;font-weight:700;color:var(--green)}
+.info-time{margin-top:2px;font-size:16px}
+.info-place{margin-top:14px;padding-top:14px;border-top:1px dashed var(--line);color:var(--muted)}
+.info-place strong{display:block;color:var(--ink);font-size:16px}
+.dday{margin-top:32px}
+.dday-msg{font-size:14px;color:var(--muted);margin-bottom:14px}
+.dday-msg b{color:var(--green);font-size:18px}
+.count{display:flex;justify-content:center;gap:10px}
+.count div{flex:1;max-width:76px;padding:12px 0 10px;border-radius:14px;background:var(--white);border:1px solid var(--line)}
+.count span{display:block;font-size:24px;font-weight:700;color:var(--green);font-variant-numeric:tabular-nums;line-height:1.2}
+.count small{font-size:11px;color:var(--muted);letter-spacing:.1em}
+.count div:first-child{background:var(--green);border-color:var(--green)}
+.count div:first-child span{color:#fff}
+.count div:first-child small{color:var(--yellow)}
+
+/* ---------- 갤러리 ---------- */
+.slider{position:relative}
+.track{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding:0 12%;scrollbar-width:none}
+.track::-webkit-scrollbar{display:none}
+.slide{flex:0 0 76%;scroll-snap-align:center;border-radius:var(--radius-card);overflow:hidden;box-shadow:0 8px 24px rgba(57,96,0,.16);background:var(--snow);cursor:zoom-in}
+.slide img{width:100%;aspect-ratio:2/3;object-fit:cover}
+.dots{display:flex;justify-content:center;gap:8px;margin-top:18px}
+.dots i{width:7px;height:7px;border-radius:50%;background:var(--line);transition:.25s}
+.dots i.on{width:22px;border-radius:7px;background:var(--gold)}
+/* 07번 가로 사진: 원본 비율 유지(잘림·찌그러짐 없음) */
+.wide{margin-top:28px;border-radius:var(--radius-card);overflow:hidden;box-shadow:0 8px 24px rgba(57,96,0,.16);cursor:zoom-in;background:var(--snow)}
+.wide img{width:100%;height:auto;aspect-ratio:3/2;object-fit:contain}
+
+/* ---------- 오시는 길 ---------- */
+.addr{font-size:16px}
+.addr strong{display:block;font-size:17px;color:var(--green)}
+.addr span{color:var(--muted)}
+.btn-row{display:flex;gap:10px;margin-top:24px}
+.btn{
+  flex:1;min-height:48px;padding:0 14px;border-radius:999px;font-weight:600;font-size:14px;
+  display:inline-flex;align-items:center;justify-content:center;gap:6px;text-decoration:none;
+  background:var(--green);color:#fff;transition:transform .15s,filter .15s;
+}
+.btn:active{transform:scale(.97)}
+.btn.line{background:transparent;color:var(--green);border:1.5px solid var(--green)}
+.btn.gold{background:var(--gold);color:var(--ink)}
+.btn.full{width:100%;flex:none}
+.copy-addr{margin-top:12px}
+
+/* ---------- 계좌 ---------- */
+.acc{border:1px solid var(--line);border-radius:var(--radius-card);background:var(--white);overflow:hidden;text-align:left}
+.acc-head{width:100%;min-height:56px;padding:0 20px;display:flex;align-items:center;justify-content:space-between;font-weight:600;color:var(--green)}
+.acc-head .chev{transition:transform .25s;font-size:12px}
+.acc-head[aria-expanded="true"] .chev{transform:rotate(180deg)}
+.acc-body{max-height:0;overflow:hidden;transition:max-height .3s ease}
+.acc-inner{padding:4px 20px 20px;border-top:1px dashed var(--line)}
+.acc-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:16px}
+.acc-row .who{font-size:12px;color:var(--muted)}
+.acc-row .num{font-size:16px;font-weight:600;font-variant-numeric:tabular-nums}
+.acc-row .bank{font-size:13px;color:var(--muted)}
+.mini{min-height:44px;min-width:64px;padding:0 16px;border-radius:999px;background:var(--gold);color:var(--ink);font-weight:700;font-size:13px}
+
+/* ---------- 마무리 ---------- */
+.ending p{color:var(--muted);margin-bottom:24px;white-space:pre-line}
+footer{padding:28px 24px 40px;text-align:center;background:var(--green);color:#fff;font-size:13px}
+footer b{color:var(--yellow)}
+
+/* ---------- 확대 보기 ---------- */
+.lb{position:fixed;inset:0;z-index:50;background:rgba(20,32,0,.94);display:none;align-items:center;justify-content:center;touch-action:pan-y}
+.lb.open{display:flex}
+.lb img{max-width:100%;max-height:100%;object-fit:contain;user-select:none}
+.lb button{position:absolute;color:#fff;width:48px;height:48px;font-size:26px;display:grid;place-items:center;border-radius:50%;background:rgba(255,255,255,.12)}
+.lb .x{top:max(14px,env(safe-area-inset-top));right:14px}
+.lb .prev{left:10px;top:50%;transform:translateY(-50%)}
+.lb .next{right:10px;top:50%;transform:translateY(-50%)}
+.lb .cnt{position:absolute;bottom:max(18px,env(safe-area-inset-bottom));left:0;right:0;text-align:center;color:#fff;font-size:13px;opacity:.85}
+
+/* ---------- 알림 / 눈 / 등장 효과 ---------- */
+.toast{position:fixed;left:50%;bottom:40px;transform:translate(-50%,20px);opacity:0;z-index:60;background:var(--ink);color:#fff;padding:12px 20px;border-radius:999px;font-size:14px;pointer-events:none;transition:.3s}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+#snow{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:40}
+.js .reveal{opacity:0;transform:translateY(18px);transition:opacity .8s ease,transform .8s ease}
+.js .reveal.in{opacity:1;transform:none}
+
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+@media (min-width:481px){ section{padding:72px 32px} }
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none!important}
+  .js .reveal{opacity:1;transform:none}
+  #snow{display:none}
+}
+</style>
+</head>
+<body>
+<canvas id="snow" aria-hidden="true"></canvas>
+
+<main class="page">
+
+  <!-- 1. 표지 (첫 화면: 즉시 로딩) -->
+  <header class="hero">
+    <img src="image/01.png" width="1024" height="1536" alt="턱시도를 입고 미소 짓는 신랑 이몽룡" fetchpriority="high" decoding="async">
+    <div class="hero-text">
+      <div class="eyebrow">Winter Wedding</div>
+      <h1>이몽룡<span class="heart">♥</span>성춘향</h1>
+      <p>2026. 12. 25 (금) 오후 3시<br>호텔수성 행복홀 2층</p>
+    </div>
+  </header>
+
+  <!-- 2. 인사말 -->
+  <section class="greeting reveal">
+    <div class="eyebrow">Invitation</div>
+    <h2>소중한 분들을 초대합니다</h2>
+    <div class="greeting-photo">
+      <img src="image/02.png" width="1024" height="1536" alt="이몽룡과 성춘향의 웨딩 사진" loading="lazy" decoding="async">
+    </div>
+    <p>서로의 마음을 확인하고
+평생을 함께하기로 약속했습니다.
+
+눈 내리는 겨울,
+소중한 분들을 모시고
+사랑의 첫걸음을 내딛으려 합니다.
+
+바쁘시더라도 오셔서
+저희의 시작을 축복해 주시면
+더없는 기쁨이겠습니다.</p>
+    <div class="names">신랑 이몽룡 · 신부 성춘향</div>
+  </section>
+
+  <!-- 3. 예식 안내 + D-day -->
+  <section class="alt reveal">
+    <div class="eyebrow">Wedding Day</div>
+    <h2>예식 안내</h2>
+    <div class="info-card">
+      <div class="info-date">2026년 12월 25일 금요일</div>
+      <div class="info-time">오후 3시</div>
+      <div class="info-place"><strong>호텔수성 행복홀 2층</strong>대구광역시 수성구</div>
+    </div>
+    <div class="dday">
+      <p class="dday-msg" id="ddayMsg"></p>
+      <div class="count" id="count" aria-live="off">
+        <div><span id="cd-d">-</span><small>DAYS</small></div>
+        <div><span id="cd-h">-</span><small>HOURS</small></div>
+        <div><span id="cd-m">-</span><small>MINS</small></div>
+        <div><span id="cd-s">-</span><small>SECS</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. 갤러리 (03~06 슬라이드 + 07 가로 와이드) -->
+  <section class="reveal">
+    <div class="eyebrow">Gallery</div>
+    <h2>갤러리</h2>
+    <div class="slider">
+      <div class="track" id="track">
+        <figure class="slide" data-i="0"><img src="image/03.png" width="1024" height="1536" alt="이몽룡과 성춘향의 웨딩 사진 3" loading="lazy" decoding="async"></figure>
+        <figure class="slide" data-i="1"><img src="image/04.png" width="1024" height="1536" alt="이몽룡과 성춘향의 웨딩 사진 4" loading="lazy" decoding="async"></figure>
+        <figure class="slide" data-i="2"><img src="image/05.png" width="1024" height="1536" alt="이몽룡과 성춘향의 웨딩 사진 5" loading="lazy" decoding="async"></figure>
+        <figure class="slide" data-i="3"><img src="image/06.png" width="1024" height="1536" alt="이몽룡과 성춘향의 웨딩 사진 6" loading="lazy" decoding="async"></figure>
+      </div>
+      <div class="dots" id="dots"><i class="on"></i><i></i><i></i><i></i></div>
+    </div>
+    <figure class="wide" data-i="4">
+      <img src="image/07.png" width="1536" height="1024" alt="서로의 손을 맞잡은 두 사람의 반지" loading="lazy" decoding="async">
+    </figure>
+    <p class="caption" style="margin-top:14px">사진을 누르면 크게 볼 수 있어요</p>
+  </section>
+
+  <!-- 5. 오시는 길 -->
+  <section class="alt reveal">
+    <div class="eyebrow">Location</div>
+    <h2>오시는 길</h2>
+    <div class="addr">
+      <strong>호텔수성 행복홀 2층</strong>
+      <span>대구광역시 수성구</span>
+    </div>
+    <div class="btn-row">
+      <a class="btn" id="naverMap" href="#" target="_blank" rel="noopener">네이버 지도</a>
+      <a class="btn gold" id="kakaoMap" href="#" target="_blank" rel="noopener">카카오맵</a>
+    </div>
+    <button class="btn line full copy-addr" id="copyAddr" type="button">주소 복사하기</button>
+  </section>
+
+  <!-- 6. 마음 전하실 곳 -->
+  <section class="reveal">
+    <div class="eyebrow">Account</div>
+    <h2>마음 전하실 곳</h2>
+    <p class="caption" style="margin-bottom:20px">참석이 어려워 직접 마음을 전하지 못하는 분들을 위해<br>계좌번호를 안내드립니다.</p>
+    <div class="acc">
+      <button class="acc-head" id="accBtn" type="button" aria-expanded="false" aria-controls="accBody">
+        <span>신랑측 계좌번호</span><span class="chev" aria-hidden="true">▼</span>
+      </button>
+      <div class="acc-body" id="accBody" role="region">
+        <div class="acc-inner">
+          <div class="acc-row">
+            <div>
+              <div class="who">신랑 이몽룡</div>
+              <div class="num">1234-5678-90</div>
+              <div class="bank">국민은행 · 예금주 이몽룡</div>
+            </div>
+            <button class="mini" type="button" data-copy="1234-5678-90">복사</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. 공유와 마무리 -->
+  <section class="alt ending reveal">
+    <div class="eyebrow">Thank you</div>
+    <h2>감사합니다</h2>
+    <p>함께해 주시는 모든 분들께
+진심으로 감사드립니다.</p>
+    <button class="btn full" id="shareBtn" type="button">청첩장 공유하기</button>
+  </section>
+
+  <footer><b>이몽룡 ♥ 성춘향</b><br>2026. 12. 25 (금) 오후 3시 · 호텔수성 행복홀 2층</footer>
+</main>
+
+<!-- 확대 보기 -->
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="사진 크게 보기">
+  <img id="lbImg" alt="">
+  <button class="x" id="lbClose" type="button" aria-label="닫기">×</button>
+  <button class="prev" id="lbPrev" type="button" aria-label="이전 사진">‹</button>
+  <button class="next" id="lbNext" type="button" aria-label="다음 사진">›</button>
+  <div class="cnt" id="lbCnt"></div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  'use strict';
+  document.documentElement.classList.add('js');
+
+  /* ===== 설정 ===== */
+  var WEDDING = new Date('2026-12-25T15:00:00+09:00');
+  var PLACE   = '호텔수성';
+  var ADDRESS = '대구광역시 수성구 호텔수성 행복홀 2층';
+  // 카카오톡 공유 버튼용 JavaScript 키: [  ] (developers.kakao.com에서 발급 후 입력, 사이트 도메인 등록 필요)
+  var KAKAO_JS_KEY = '';
+  var SHARE_TITLE = '이몽룡 ♥ 성춘향 결혼합니다';
+  var SHARE_DESC  = '2026.12.25 (금) 오후 3시 · 호텔수성 행복홀 2층';
+
+  var $ = function(id){ return document.getElementById(id); };
+
+  /* ===== 알림 / 복사 ===== */
+  var toastTimer;
+  function toast(msg){
+    var t = $('toast'); t.textContent = msg; t.classList.add('show');
+    clearTimeout(toastTimer); toastTimer = setTimeout(function(){ t.classList.remove('show'); }, 1800);
+  }
+  function copyText(text, okMsg){
+    function fallback(){
+      var ta = document.createElement('textarea');
+      ta.value = text; ta.setAttribute('readonly','');
+      ta.style.cssText = 'position:fixed;top:0;left:0;opacity:0';
+      document.body.appendChild(ta); ta.select();
+      var ok = false;
+      try { ok = document.execCommand('copy'); } catch(e){}
+      document.body.removeChild(ta);
+      toast(ok ? okMsg : '복사하지 못했어요. 직접 선택해 복사해 주세요.');
+    }
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(text).then(function(){ toast(okMsg); }, fallback);
+    } else { fallback(); }
+  }
+
+  /* ===== D-day 카운트다운 ===== */
+  var pad = function(n){ return n < 10 ? '0' + n : '' + n; };
+  function tick(){
+    var diff = WEDDING - new Date();
+    if (diff <= 0) {
+      $('ddayMsg').innerHTML = '두 사람의 결혼식이 열렸습니다 💚';
+      ['d','h','m','s'].forEach(function(k){ $('cd-' + k).textContent = '00'; });
+      return false;
+    }
+    var s = Math.floor(diff / 1000);
+    var d = Math.floor(s / 86400); s -= d * 86400;
+    var h = Math.floor(s / 3600);  s -= h * 3600;
+    var m = Math.floor(s / 60);    s -= m * 60;
+    $('ddayMsg').innerHTML = '이몽룡 ♥ 성춘향의 결혼식이 <b>' + (d + 1) + '일</b> 남았습니다';
+    $('cd-d').textContent = d; $('cd-h').textContent = pad(h);
+    $('cd-m').textContent = pad(m); $('cd-s').textContent = pad(s);
+    return true;
+  }
+  if (tick()) {
+    var cdTimer = setInterval(function(){ if (!tick()) clearInterval(cdTimer); }, 1000);
+  }
+
+  /* ===== 지도 링크 / 주소 복사 ===== */
+  $('naverMap').href = 'https://map.naver.com/p/search/' + encodeURIComponent(PLACE);
+  $('kakaoMap').href = 'https://map.kakao.com/?q=' + encodeURIComponent(PLACE);
+  $('copyAddr').addEventListener('click', function(){ copyText(ADDRESS, '주소를 복사했어요'); });
+
+  /* ===== 계좌 접기/펼치기 + 복사 ===== */
+  var accBtn = $('accBtn'), accBody = $('accBody');
+  accBtn.addEventListener('click', function(){
+    var open = accBtn.getAttribute('aria-expanded') === 'true';
+    accBtn.setAttribute('aria-expanded', String(!open));
+    accBody.style.maxHeight = open ? '0' : accBody.scrollHeight + 'px';
+  });
+  document.querySelectorAll('[data-copy]').forEach(function(b){
+    b.addEventListener('click', function(){ copyText(b.getAttribute('data-copy'), '계좌번호를 복사했어요'); });
+  });
+
+  /* ===== 갤러리: 슬라이드 점 표시 ===== */
+  var track = $('track'), dots = $('dots').children;
+  var slides = track.querySelectorAll('.slide');
+  function updateDots(){
+    var center = track.scrollLeft + track.clientWidth / 2, best = 0, bestDist = Infinity;
+    slides.forEach(function(sl, i){
+      var dist = Math.abs(sl.offsetLeft + sl.offsetWidth / 2 - center);
+      if (dist < bestDist) { bestDist = dist; best = i; }
+    });
+    for (var i = 0; i < dots.length; i++) dots[i].classList.toggle('on', i === best);
+  }
+  track.addEventListener('scroll', function(){ requestAnimationFrame(updateDots); }, { passive: true });
+
+  /* ===== 갤러리: 확대 보기 (03~07) ===== */
+  var photos = [3,4,5,6,7].map(function(n){
+    return { src: 'image/0' + n + '.png', alt: n === 7 ? '서로의 손을 맞잡은 두 사람의 반지' : '이몽룡과 성춘향의 웨딩 사진 ' + n };
+  });
+  var lb = $('lb'), lbImg = $('lbImg'), cur = 0, lastFocus = null;
+  function show(i){
+    cur = (i + photos.length) % photos.length;
+    lbImg.src = photos[cur].src; lbImg.alt = photos[cur].alt;
+    $('lbCnt').textContent = (cur + 1) + ' / ' + photos.length;
+  }
+  function openLb(i){ lastFocus = document.activeElement; show(i); lb.classList.add('open'); document.body.style.overflow = 'hidden'; $('lbClose').focus(); }
+  function closeLb(){ lb.classList.remove('open'); document.body.style.overflow = ''; if (lastFocus) lastFocus.focus(); }
+  document.querySelectorAll('[data-i]').forEach(function(el){
+    el.setAttribute('tabindex', '0'); el.setAttribute('role', 'button');
+    el.addEventListener('click', function(){ openLb(+el.getAttribute('data-i')); });
+    el.addEventListener('keydown', function(e){ if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openLb(+el.getAttribute('data-i')); } });
+  });
+  $('lbClose').addEventListener('click', closeLb);
+  $('lbPrev').addEventListener('click', function(e){ e.stopPropagation(); show(cur - 1); });
+  $('lbNext').addEventListener('click', function(e){ e.stopPropagation(); show(cur + 1); });
+  lb.addEventListener('click', function(e){ if (e.target === lb) closeLb(); });
+  document.addEventListener('keydown', function(e){
+    if (!lb.classList.contains('open')) return;
+    if (e.key === 'Escape') closeLb();
+    else if (e.key === 'ArrowLeft') show(cur - 1);
+    else if (e.key === 'ArrowRight') show(cur + 1);
+  });
+  var sx = null;
+  lb.addEventListener('touchstart', function(e){ sx = e.touches[0].clientX; }, { passive: true });
+  lb.addEventListener('touchend', function(e){
+    if (sx === null) return;
+    var dx = e.changedTouches[0].clientX - sx; sx = null;
+    if (Math.abs(dx) > 50) show(cur + (dx < 0 ? 1 : -1));
+  });
+
+  /* ===== 링크 공유 ===== */
+  function pageUrl(){ return location.href.split('#')[0]; }
+  function absUrl(p){ return new URL(p, pageUrl()).href; }
+  function loadKakao(cb){
+    if (window.Kakao) return cb(true);
+    var s = document.createElement('script');
+    s.src = 'https://t1.kakaocdn.net/kakao_js_sdk/2.7.2/kakao.min.js';
+    s.onload = function(){ cb(!!window.Kakao); }; s.onerror = function(){ cb(false); };
+    document.head.appendChild(s);
+  }
+  function fallbackShare(){
+    var url = pageUrl();
+    if (navigator.share) {
+      navigator.share({ title: SHARE_TITLE, text: SHARE_DESC, url: url }).catch(function(){});
+    } else { copyText(url, '링크를 복사했어요'); }
+  }
+  $('shareBtn').addEventListener('click', function(){
+    if (!KAKAO_JS_KEY || !/^https?:$/.test(location.protocol)) return fallbackShare();
+    loadKakao(function(ok){
+      if (!ok) return fallbackShare();
+      try {
+        if (!Kakao.isInitialized()) Kakao.init(KAKAO_JS_KEY);
+        var url = pageUrl();
+        Kakao.Share.sendDefault({
+          objectType: 'feed',
+          content: { title: SHARE_TITLE, description: SHARE_DESC, imageUrl: absUrl('image/01.png'), link: { mobileWebUrl: url, webUrl: url } },
+          buttons: [{ title: '청첩장 보기', link: { mobileWebUrl: url, webUrl: url } }]
+        });
+      } catch (err) { fallbackShare(); }
+    });
+  });
+
+  /* ===== 스크롤 등장 효과 ===== */
+  var reveals = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){ if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
+    }, { threshold: 0.12 });
+    reveals.forEach(function(el){ io.observe(el); });
+  } else { reveals.forEach(function(el){ el.classList.add('in'); }); }
+
+  /* ===== 눈 내리는 효과 ===== */
+  var cv = $('snow');
+  if (cv && !(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches)) {
+    var ctx = cv.getContext('2d'), W, H, flakes = [], raf = null;
+    var COLORS = ['255,255,255', '237,218,94', '244,190,56'];   // 흰색, #EDDA5E, #F4BE38
+    function resize(){
+      var dpr = Math.min(window.devicePixelRatio || 1, 2);
+      W = cv.width = innerWidth * dpr; H = cv.height = innerHeight * dpr;
+      cv.style.width = innerWidth + 'px'; cv.style.height = innerHeight + 'px';
+      ctx.setTransform(1, 0, 0, 1, 0, 0);
+      ctx.scale(dpr, dpr);
+    }
+    function make(top){
+      return { x: Math.random() * innerWidth, y: top ? -10 : Math.random() * innerHeight,
+               r: 1.5 + Math.random() * 2.8, v: 0.3 + Math.random() * 0.8,
+               s: Math.random() * Math.PI * 2, c: COLORS[Math.random() < 0.65 ? 0 : (Math.random() < 0.5 ? 1 : 2)] };
+    }
+    function init(){ resize(); flakes = []; for (var i = 0; i < 42; i++) flakes.push(make(false)); }
+    function frame(){
+      ctx.clearRect(0, 0, innerWidth, innerHeight);
+      flakes.forEach(function(f){
+        f.y += f.v; f.s += 0.012; f.x += Math.sin(f.s) * 0.35;
+        if (f.y > innerHeight + 10) Object.assign(f, make(true));
+        ctx.beginPath(); ctx.arc(f.x, f.y, f.r, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(' + f.c + ',' + (f.c === '255,255,255' ? 0.9 : 0.6) + ')';
+        ctx.shadowColor = 'rgba(57,96,0,0.35)'; ctx.shadowBlur = 3;   // 흰 배경에서도 보이도록 옅은 초록 그림자
+        ctx.fill();
+      });
+      raf = requestAnimationFrame(frame);
+    }
+    init(); frame();
+    addEventListener('resize', init);
+    document.addEventListener('visibilitychange', function(){
+      if (document.hidden) { cancelAnimationFrame(raf); raf = null; } else if (!raf) { frame(); }
+    });
+  }
+})();
+</script>
+</body>
+</html>
